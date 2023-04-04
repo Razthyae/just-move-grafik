@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+
+.App-logo {
+  position: absolute;
+  left: 15px;
+  top: 70vh;
+  height: 20vmin;
+  pointer-events: none;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Authorization {
+  width: 17vw;
+  background-color: black;
+  position: fixed;
+  height: 100vh;
+}
+ 
+.Timetable {
+  position: absolute;
+  left: 17vw;
+  width: 83vw;
+  
+}
+
+#timetable {
+  
+  margin: auto;
+}
+
+.supabase-auth-ui_ui-button {
+  display: none
+}
+
+.supabase-auth-ui_ui-input {
+  width: 250px !important;
+}
+
+#greeting {
+  color:white;
+}

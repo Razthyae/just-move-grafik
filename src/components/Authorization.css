@@ -1,0 +1,14 @@
+#root > div > div.Authorization > div > div.supabase-auth-ui_ui-container.c-jTXIoq.c-jTXIoq-bsgKCL-direction-vertical.c-jTXIoq-bXHFxK-gap-large > div > button:nth-child(1) {
+    display: none; 
+}
+#root > div > div.Authorization > div > div.supabase-auth-ui_ui-container.c-jTXIoq.c-jTXIoq-bsgKCL-direction-vertical.c-jTXIoq-bXHFxK-gap-large > div > button:nth-child(2) {
+    display: none;
+}
+#root > div > div.Authorization > div > div.supabase-auth-ui_ui-container.c-jTXIoq.c-jTXIoq-bsgKCL-direction-vertical.c-jTXIoq-bXHFxK-gap-large > div > button:nth-child(3) {
+    display: none;
+}
+
+
+.Authorization {
+    
+}

@@ -1,0 +1,102 @@
+/* Style for the input field */
+input, select {
+  
+  padding: 2px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 12px;
+  background-color: lightgray;
+  color: black;
+  
+  width: 155px;
+}
+
+
+
+/* Style for when the input field is focused */
+input:focus {
+  border-color: #5b9aff;
+  box-shadow: 0 0 5px #5b9aff;
+  outline: none;
+}
+
+/* Style for the submit button */
+input[type=submit], button {
+  background-color: #5b9aff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  width: 120px;
+  border-radius: 15px;
+  margin-top: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style for the submit button on hover */
+input[type=submit]:hover, button:hover {
+  background-color: #4c8dff;
+}
+
+/* Style for the label */
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #5b9aff;
+  }
+  
+form {
+  
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+  grid-row-gap: 20px;
+
+}
+ 
+#form {
+    text-align: left;
+}
+
+#form {
+    position: fixed;
+right: 0px;
+    height: 100vh;  
+    width: 17vw;
+    top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-top: 150px;
+    background-color: #282C34;
+}
+
+
+#successAdd {
+  color: aqua;
+  border-radius: 5px;
+  margin-top: -45px;
+  margin-bottom: 25px;
+  width: 175px;
+  
+}
+
+
+.adminForm {
+  margin-top: -110px;
+}
+
+#clearValues {
+  margin-top: -10px;
+}
+
+.deleteForm {
+  margin-bottom: 70px;
+}
+
+#deleteButton {
+  margin-top: -10px;
+}

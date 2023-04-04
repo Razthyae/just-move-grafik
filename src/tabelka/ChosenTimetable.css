@@ -1,0 +1,171 @@
+.styles-module_hour__TLyj9 {
+   
+}
+
+ div.styles-module_day__aQ2Tt  > div > span:nth-child(2) {
+    display: none;
+}
+
+
+.styles-module_hour__TLyj9 {
+    color: black;
+    display: none;
+}
+
+.styles-module_day_title__cc17c {
+    display: none !important;
+}
+
+
+div.styles-module_day__aQ2Tt.red > div > span:nth-child(2) {
+    background-color: red;
+    display: none !important;
+}
+
+.classData {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.classHeader {
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 2px;
+    
+}
+
+.classLevel {
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0px
+}
+
+.classInstructors {
+    margin: 0px;
+
+}
+
+.styles-module_event_info__WLqqh {
+    padding: 0px !important;
+    height: 100%;
+}
+
+
+.styles-module_event__28gBZ {
+    padding: 0px !important;
+}
+
+div.styles-module_day__aQ2Tt.red > div {
+    background-color: red;
+    color: black;
+    
+}
+
+div.styles-module_day__aQ2Tt.blue > div {
+    background-color: #5ACDFF;
+    color: black;
+
+}
+
+div.styles-module_day__aQ2Tt.green > div {
+    background-color: #409C53;
+    color: black;
+
+}
+
+div.styles-module_day__aQ2Tt.yellow > div {
+    background-color: #FEED00;
+    color: black;
+
+}
+
+.styles-module_day__aQ2Tt {
+   background-image: none !important; 
+    width: 150px !important;
+    padding-bottom: 0px;
+    margin-left: 3px;
+     
+}
+
+.styles-module_day__aQ2Tt > div {
+    padding: 
+}
+
+
+.styles-module_day__aQ2Tt {
+    background-color: transparent !important;
+}
+
+
+.whiteSpace {
+    
+    height: 4px;
+    background-color: white;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+#chosenTimetable {
+    height: 1500px;
+}
+
+
+input[type="radio"] {
+    display: none
+  }
+
+
+input[type="radio"]:checked + label {
+  /*  display: none; */
+  background-color: darkred !important;
+}
+
+#dayChoice label{
+background-color: red;
+color: white;
+padding: 10px; 
+border-radius: 20px;
+font-size: 25px;
+font-weight: 700;
+margin-left: 5px;
+margin-right: 5px;
+z-index: 5;
+}
+
+#dayChoice label:hover{
+    background-color: darkred;
+}
+
+#dayChoice {
+    margin-left: 07vw;
+    margin-right: 17vw;
+    padding-top: 35px;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    border: 0px;
+    z-index: 5;
+}
+
+.classData {
+    
+}
+
+
+#timetable {
+    position: absolute;
+    
+
+    top: 40px;
+    height: 100vh;
+}
+
+.ClassesForm > label {
+    text-align: right;
+    width: 80px;
+
+}

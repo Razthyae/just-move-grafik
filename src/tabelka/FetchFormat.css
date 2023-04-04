@@ -1,0 +1,18 @@
+.classId {
+    display: none;
+    font-size: 12px;
+}
+
+
+
+.classData:hover > .classId {
+    display: block;
+}
+
+.classData:hover > .classInstructors {
+    display: none;
+}
+
+.classData:hover > .classLevel {
+    display: none;
+}
